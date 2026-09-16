@@ -1,0 +1,17 @@
+body{
+    background-color: #e0f4cc;
+    margin: 0px;
+};
+
+#wrapper{
+    width: 960px;
+    background-color: #f9db89;
+    margin-left: auto;
+    margin-right: auto;
+};
+
+header{
+    background-color: #eeed9f;
+    height: 150px;
+    position: relative;
+};
