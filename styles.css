@@ -34,4 +34,22 @@ header img{
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+};
+
+a:link{
+    color: #ee4a09;
+    text-decoration: #f89279;
+};
+
+a:visited{
+    color: #f89279;
+};
+
+a:hover{
+    color: #9ace4d;
+};
+
+.currentPage{
+    color: #ee4a09;
+     border-bottom: solid thin #ee4a09;
 }
