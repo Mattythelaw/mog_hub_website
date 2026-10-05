@@ -98,3 +98,26 @@ footer{
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+#bookings{
+    background-image: none;
+    padding-left: 25px;
+}
+
+.col1, .col2, .col3{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+#bookings img{
+    width: 60px;
+}
+
+#bookings h3{
+    font-size: 1.53em;
+}
+
+#bookings p{
+    font-size: 1em;
+}
