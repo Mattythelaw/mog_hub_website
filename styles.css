@@ -57,3 +57,44 @@ a:hover{
 .clearFix{
     clear: both;
 }
+
+main{
+    background-image: url(./images/cat-hero.jpg_)
+}
+
+#homeInfo{
+    background-color: rgba(225, 255, 255, 0.5);
+    width: 100%;
+    paddding-top: 15px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    padding-left: 30px;
+    border-bottom: solid thin #ee4a09;
+    padding-bottom: 15px;
+    margin: 0%;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin: 0px;
+    padding-left: 30px;
+}
+
+p{
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
