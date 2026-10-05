@@ -99,7 +99,7 @@ footer{
     padding-bottom: 10px;
 }
 
-#bookings, #volunteer{
+#bookings, #volunteer, #gallery, #membership{
     background-image: none;
     padding-left: 25px;
 }
@@ -114,11 +114,21 @@ footer{
     width: 60px;
 }
 
-#bookings h3, #volunteer h3{
-    font-size: 1.53em;
+#bookings h3, #volunteer h3, #membership h3{
+    font-size: 1.5em;
 }
 
 #bookings p, #volunteer p{
     font-size: 1em;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
