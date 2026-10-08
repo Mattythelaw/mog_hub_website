@@ -135,3 +135,67 @@ footer{
     vertical-align: middle;
 }
 
+/* Adding breakpoints for tablet and phone to adjust the layout when website 
+is opened on these devices (W3Schools, 2026) */
+
+@media (max-width: 768px){
+    /* This is a breakpoint for the tablet screen (W3Schools, 2026)*/
+
+     main{
+        padding: 15px;
+     }
+
+     h1{
+        font-size: 1.6em;
+     }
+     
+     h2{
+        font-size: 1.3em;
+     }
+
+     h3{
+        font-size: 1.1em;
+     }
+
+     nav ul{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     section article{
+        flex-direction: column;
+        align-items: flex-start;
+     }
+
+     section article a{
+        margin-left: 0;
+        margin-top: 10px;
+     }
+}
+
+@media (max-width: 480px){
+    /* This is a breakpoint for the phone screen (W3Schools, 2026)*/
+
+     header{
+        padding: 10px;
+     }
+
+     main{
+        padding: 10px;
+     }
+
+     h1{
+        font-size: 1.4em;
+     }
+     
+     h2{
+        font-size: 1.2em;
+     }
+
+     nav ul li a{
+        padding: 10px;
+        font-size: 0.9em;
+     }
+}
+
+
