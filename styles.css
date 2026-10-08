@@ -1,20 +1,20 @@
 body{
     background-color: #b8c787;
     margin: 0px;
-};
+}
 
 #wrapper{
-    width: 960px;
+    width: 100%;
     background-color: #f9db89;
     margin-left: auto;
     margin-right: auto;
-};
+}
 
 header{
     background-color: #eeed9f;
     height: 150px;
     position: relative;
-};
+}
 
 header img{
     width: 100px;
@@ -22,46 +22,48 @@ header img{
     top: 10px;
     left: 10px;
     
-    
-};
+}
 
 #topLinks{
     position:absolute;
     width:500px;
     top: 100px;
     right: 10px;
-};
+}
 
 #topLinks li{
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
-};
+}
 
 a:link{
     color: #ee4a09;
-    text-decoration: #f89279;
-};
+    text-decoration: none;
+}
 
 a:visited{
     color: #f89279;
-};
+}
 
 a:hover{
     color: #9ace4d;
-};
+}
 
 .currentPage{
     color: #ee4a09;
     border-bottom: solid thin #ee4a09;
-};
+}
 
 .clearFix{
     clear: both;
 }
 
 main{
-    background-image: url(./images/cat-hero.jpg)
+    background-image: url(./images/cat-hero.jpg);
+    background-size: cover;
+    background-position: center 60%;
+    
 }
 
 #homeInfo{
